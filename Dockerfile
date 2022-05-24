@@ -14,7 +14,7 @@ RUN set -x \
    && apt install -y \
        firefox-esr
  
-# Add latest FireFox
+# Add FireFox
 RUN set -x \
    && apt install -y \
        libx11-xcb1 \
